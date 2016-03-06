@@ -25,7 +25,7 @@ public class lunch {
 			break;
 		}
 		 int case2;
-			System.out.println("Are you thirsty? 1.yes 2.no");
+			System.out.printf( "%s%n%%s%n%s%n%s%n", "Are you thirsty?", "1.yes", "2.no");
 			case2 = in.nextInt();
 			int answer1 = 0;
 		switch (case2){
